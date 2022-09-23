@@ -3,6 +3,7 @@ window.addEventListener('load', main);
 let btnLista, content, servicio;
 
 const crearTabla = () => {
+    btnLista.id = 'pulsado';
     let table = document.createElement("table");
     table.id="table";
     table.innerHTML="<tr><th>NOMBRE</th> <th>1º TRIMESTRE</th> <th>2º TRIMESTRE</th> <th>3º TRIMESTRE</th> <th>NOTA MEDIA</tr>";

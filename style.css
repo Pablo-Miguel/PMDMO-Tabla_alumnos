@@ -42,3 +42,7 @@
 #btnLista:hover {
     box-shadow: black 5px 5px 10px 0px;
 }
+
+#pulsado {
+  display: none;
+}
